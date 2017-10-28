@@ -1,0 +1,16 @@
+
+<h1 style="text-decoration: underline">#InstaClone</h1>
+<%= react_component('App') %>
+
+
+<% if false %>
+<%= form_for @photo do |f| %>
+ <%= f.file_field :photo %>
+ <%= f.submit "Post" %>
+<% end %>
+<% end %>
+<br>
+
+<% if false %>
+<%= image_tag @new_photo.photo.url(:medium) %>
+<% end %>
